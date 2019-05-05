@@ -1,0 +1,169 @@
+/*Created By Soumitro Datta, student At VIT Chennai*/
+html,body{
+	background-image: url("Images/Wooden.jpg");
+	            /*background: -webkit-linear-gradient(225deg, #41cabfcc, #81f983e0);
+	            background: -moz-linear-gradient(225deg, #41cabfcc, #81f983e0);*/
+}
+.carousel-inner>.item{
+	 transition: transform .10s ease-in-out;
+	 -webkit-transition: -webkit-transform .10s ease-in-out;
+ }
+.jumbotron{
+	            background-color: #f9f9f2ed;
+	            color: #000000;
+	            padding-left: 2px;
+	            border-top-style: solid;
+	            border-radius: 3px;
+	            border-top-color: #800080;
+	        }
+	        .jumbotron p{
+	        	font-size: 14px;
+	        }
+	        .tabs-content{
+	            border-left: 1px solid #ddd;
+	            border-right: 1px solid #ddd;
+	            border-bottom: 1px solid #ddd;
+	            padding: 10px;
+	        }
+	        .nav-tabs{
+	            margin-bottom: 0;
+	        }
+	        .container{
+	            margin-top: 10px;
+	            width: 90%;
+	            background: #ffffff75;
+	            border-radius: 5px;
+	            padding-top: 15px;
+	            padding-bottom: 0px;
+	        }
+	        .container-padded{
+	            margin-top: 10px;
+	            width: 90%;
+	            background: #ffffff75;
+	            border-radius: 5px;
+	            padding: 15px;
+	        }
+	        .carousel{
+	            margin-bottom: 10px;
+	            padding-left: 0px;
+	            padding-right: 0px;
+	            height: 80%;
+	            width:auto;
+	        }
+	        .navbar{
+	            background: -webkit-linear-gradient(225deg, #e68c47, #845d41);
+	            background: -moz-linear-gradient(225deg, #e68c47, #845d41);
+	            border-radius: 10px;
+	            padding-left: 5px;
+	            padding-right: 10px;
+	        }
+	        .icon-bar{
+	            background: white;
+	        }
+	        
+	        .navbar-nav a{
+	            color: #ffffff;
+
+	        }
+	        .navbar-brand {
+	            color: #ffffff
+	        }
+	        .item img{
+	        	height: 100%;
+	        	width: 100%;
+	        }
+	        /*Changing the bootstrap default from 768 px to 1200 px*/
+	        @media (max-width: 1201px) {
+			    .navbar-header {
+			        float: none;
+			    }
+			    .navbar-left,.navbar-right {
+			        float: none !important;
+			    }
+			    .navbar-toggle {
+			        display: block;
+			    }
+			    .navbar-collapse {
+			        border-top: 1px solid transparent;
+			        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+			    }
+			    .navbar-fixed-top {
+			        top: 0;
+			        border-width: 0 0 1px;
+			    }
+			    .navbar-collapse.collapse {
+			        display: none!important;
+			    }
+			    .navbar-nav {
+			        float: none!important;
+			        margin-top: 7.5px;
+			    }
+			    .navbar-nav>li {
+			        float: none;
+			    }
+			    .navbar-nav>li>a {
+			        padding-top: 10px;
+			        padding-bottom: 10px;
+			    }
+			    .collapse.in{
+			        display:block !important;
+			    }
+			}
+			.breadcrumb{
+				font-family:"Times New Roman";
+				font-size: 12px;
+				background-color: #ffffffe8;
+			}
+			.breadcrumb a{
+				color: #777;
+			}
+			.pic img{
+				height: 100%;
+				width: 100%;
+			}
+			@media (max-width: 768px){
+				.pic img{
+				height: 100%;
+				width: 100%;
+				margin-bottom: 20px;
+			}
+			}
+			.btn{
+				margin-bottom: 5px;
+				background-color: #88d83e;
+				color: #000000;
+			}
+			.nav>li>a:hover{
+				text-decoration: underline;
+				background-color: #0000002b;
+			}
+			.n{
+				width:95%;
+				border-radius: 20px;
+				margin-bottom: 20px;
+				border-top-style: solid;
+				border-top-color: #40e0d0;
+			}
+			.b{
+				width:95%;
+				padding: 0;
+			}
+			.c{
+				width:98%;
+				height: 170px;
+				padding:5px;
+				text-align: center; 
+				border-bottom-style: solid;
+				border-bottom-color:#5c37d0;
+				background-color: #f0f8ff;
+				border-radius: 0px;
+			}
+			.footer-container{
+				margin-top: 100px;
+				margin-bottom: 0px;
+				margin-left: 0px;
+				margin-right: 0px;
+				padding:15px;
+				background-color: #ffffffa1;
+				border-radius: inherit;
+			}
