@@ -6,7 +6,12 @@ html,body{
 }
 .fontnew{
 	font-family: Harrington;
+	font-size: 36px;
+}
+@media (max-width: 769px){
+	.fontnew{
 	font-size: 24px;
+	}
 }
 .fontnew2{
 	font-family: Old English Text MT;
