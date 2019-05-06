@@ -12,6 +12,20 @@ html,body{
 	.fontnew{
 	font-size: 24px;
 	}
+	.navbar-nav>li>a{
+		font-size: 18px;
+	}
+}
+@media (max-width: 360px){
+	.fontnew{
+	font-size: 18px;
+	}
+	.navbar-nav>li>a{
+		font-size: 13px;
+	}
+	.fontnew4{
+		font-size: 12px;
+	}
 }
 .fontnew2{
 	font-family: Old English Text MT;
@@ -52,12 +66,12 @@ html,body{
 	        	padding: 15px 0px 15px 15px;
 	        }
 	        .container{
-	            margin-top: 10px;
+	            margin-top: 0px;
 	            width: 90%;
 	            background: #ffffff75;
 	            border-radius: 5px;
 	            padding-top: 15px;
-	            padding-bottom: 0px;
+	            padding-bottom: 20px;
 	        }
 	        .container-padded{
 	            margin-top: 10px;
@@ -171,6 +185,7 @@ html,body{
 			.b{
 				width:95%;
 				padding: 0;
+				margin-top: 10px;
 			}
 			.c{
 				width:98%;
@@ -183,11 +198,14 @@ html,body{
 				border-radius: 0px;
 			}
 			.footer-container{
-				margin-top: 100px;
+				margin-top: 50px;
 				margin-bottom: 0px;
 				margin-left: 0px;
 				margin-right: 0px;
-				padding:15px;
+				padding:15px 15px 0px 15px;
 				background-color: #ffffffa1;
 				border-radius: inherit;
+			}
+			.footer-container p{
+				margin-bottom: 0px;
 			}
